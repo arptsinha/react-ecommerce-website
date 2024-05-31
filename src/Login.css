@@ -1,0 +1,89 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* background-color: white; */
+    background: #16BFFD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.login__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login__container{
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    /* border: 1px solid lightgray; */
+    padding: 50px;
+background: rgba(255, 255, 255, 0.43);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(14.8px);
+-webkit-backdrop-filter: blur(14.8px);
+border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.login__container > h1 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.login__container > form > h5 {
+    margin-bottom: 5px;
+}
+.login__container > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border-radius: 5px;
+    border-color: rgb(169, 169, 169);
+}
+
+.login__container > p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login__signInButton {
+    background: #7F7FD5;  /* fallback for old browsers */
+    border-radius: 10px;
+    width: 100%;
+    /* height: 30px; */
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: white;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.login__registerButton {
+    background: #86A8E7;  /* fallback for old browsers */
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
